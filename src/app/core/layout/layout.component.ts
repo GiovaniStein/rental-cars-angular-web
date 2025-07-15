@@ -36,23 +36,15 @@ export class LayoutComponent implements OnInit {
   ngOnInit(): void {
     this.items = [
       {
-        label: 'Item Menu 1',
-        icon: 'fa fa-search fa-lg',
+        label: 'Alugueis',
+        icon: 'fa fa-car fa-lg',
+        routerLink: 'aluguel',
         command: () => {},
       },
       {
-        label: 'Item Menu 2',
-        icon: 'fa fa-home fa-lg',
-        command: () => {},
-      },
-      {
-        label: 'Item Menu 3',
-        icon: 'fa fa-folder-open',
-        command: () => {},
-      },
-      {
-        label: 'Item Menu 4',
-        icon: ' fa fa-money',
+        label: 'Relatórios',
+        icon: 'fa fa-file-o fa-lg',
+        routerLink: 'relatorio',
         command: () => {},
       },
     ];
